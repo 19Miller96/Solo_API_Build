@@ -5,8 +5,6 @@ import { createUser, getUsers, userId, deleteUser, patchUser } from '../controll
 
 const router = express.Router();
 
-let users = [];
-
 router.get('/', getUsers);
 
 router.post('/', createUser);
